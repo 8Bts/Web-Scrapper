@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    mini_portile2 (2.4.0)
+    net-ping (2.0.8)
+    nokogiri (1.10.9)
+      mini_portile2 (~> 2.4.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  net-ping
+  nokogiri
+
+BUNDLED WITH
+   1.17.2
