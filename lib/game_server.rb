@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require 'colorize'
 
 class GameServer
@@ -9,15 +7,14 @@ class GameServer
     @ip = ip
     @port = port
     @ping = ping
-    @ping_color
-    case ping
-    when 0..40
-      @ping_color = :green
-    when 41..100
-      @ping_color = :yellow
-    else
-      @ping_color = :red
-    end
+    @ping_color = case ping
+                  when 0..40
+                    :green
+                  when 41..100
+                    :yellow
+                  else
+                    :red
+                  end
   end
 
   def ip_port
@@ -28,6 +25,6 @@ class GameServer
     "#{@hostname}\n
     IP:Port : #{ip_port}\n
     Ping    : #{@ping.to_s.colorize(@ping_color)} ms\n
-    \r" + ("="*50).light_black + "\n\n"
+    \r" + ('=' * 50).light_black + "\n\n"
   end
 end
