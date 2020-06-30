@@ -36,7 +36,7 @@ run `bundle install` command in shell
 
 ## Live Demo
 
-[![Run on Repl.it](https://repl.it/badge/github/8Bts/tic-tac-toe)](https://repl.it/github/8Bts/tic-tac-toe)
+[![Run on Repl.it](https://repl.it/badge/github/8Bts/Web-Scrapper)](https://repl.it/github/8Bts/Web-Scrapper)
 
 ## Authors
 
@@ -60,6 +60,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
  
+ - [GameTracker](https://www.gametracker.com/)
 - <a href="https://www.rubygems.org/" target="_blank">Ruby Gems official website</a>
 - <a href="https://ruby-doc.org/core-2.6.1/" target="_blank">Ruby Docs</a>
 - <a href="https://www.stackoverflow.com/" target="_blank">Stackoverflow</a>
