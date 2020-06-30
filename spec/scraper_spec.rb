@@ -1,9 +1,15 @@
+# frozen_string_literal: true
+
 # spec/scraper_spec.rb
 
-describe Scraper do
+require_relative '../lib/game_server'
+require_relative '../lib/scraper'
 
+describe Scraper do
+  describe 'Scraper.scrap_list' do
+
+  end  
 end
 
-describe PingTest do
-
-end    
+describe GameServer do
+end
