@@ -1,5 +1,3 @@
-# rubocop: disable Style/ClassVars
-
 require 'nokogiri'
 require 'httparty'
 require 'net/ping'
@@ -8,7 +6,7 @@ require_relative '../lib/game_server'
 class Scraper
   @@page_itr = 1
 
-  def self.scrap_list(page)
+  private_class_method def self.scrap_list(page)
     url = 'https://www.gametracker.com/search/cs/'
     url = "https://www.gametracker.com/search/cs/?searchpge=#{page}#search" if page > 1
     body = HTTParty.get(url).body
@@ -33,5 +31,3 @@ class Scraper
     game_servers
   end
 end
-
-# rubocop: enable Style/ClassVars
