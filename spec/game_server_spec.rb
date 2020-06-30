@@ -8,7 +8,7 @@ describe GameServer do
   describe '#ip_port' do
     it 'returns ip + port in one string' do
       expect(server.ip_port).to eql('81.0.217.179:27577')
-    end  
+    end
   end
 
   describe '#to_s' do
@@ -19,6 +19,6 @@ describe GameServer do
 
     it 'returns string containing all information about server' do
       expect(server.to_s).to eql expected
-    end  
+    end
   end
 end

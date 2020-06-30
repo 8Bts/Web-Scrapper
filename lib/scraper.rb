@@ -1,3 +1,5 @@
+# rubocop: disable Style/ClassVars
+
 require 'nokogiri'
 require 'httparty'
 require 'net/ping'
@@ -31,3 +33,5 @@ class Scraper
     game_servers
   end
 end
+
+# rubocop: enable Style/ClassVars
