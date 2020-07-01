@@ -1,6 +1,8 @@
 # Web-Scrapper
 This project is about scraping a website that is listing IP addresses of game servers. The application parses network information of game servers from web documents and also does a ping test for them. After testing ping rates, the program outputs a list of game servers sorted by their Ping value in ascending order. You can get more lists by typing 'next' after each output.
 
+![screenshot]()
+
 ## Built With
 
 - Ruby 2.6.6p146
@@ -30,13 +32,6 @@ run `bundle install` command in shell
 1. Open your command prompt and navigate to 'bin' folder of application directory(use 'cd' command)
 2. Type ruby main.rb
 3. Type 'next' if you want to load more server information
-
-
-
-
-## Live Demo
-
-[![Run on Repl.it](https://repl.it/badge/github/8Bts/Web-Scrapper)](https://repl.it/github/8Bts/Web-Scrapper)
 
 ## Authors
 
