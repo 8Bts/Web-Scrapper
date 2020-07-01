@@ -35,7 +35,7 @@ run `bundle install` command in shell
 
 ## Automated tests
 
-You can run rspec tests using `rpsec` or `rspec ./spec/[specfile].rb' commands
+You can run rspec tests using `rpsec` or `rspec ./spec/[specfile].rb` commands
 
 ## Authors
 
